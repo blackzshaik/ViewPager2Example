@@ -19,6 +19,7 @@
         android:layout_marginBottom="24dp"
         android:background="@color/white"
         android:padding="16dp"
+        android:visibility="gone"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
