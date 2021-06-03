@@ -12,8 +12,7 @@ import com.madtutorials.viewpager2example.R
 class ImageViewPagerAdapter : RecyclerView.Adapter<ImageViewPagerAdapter.ViewHolder>() {
 
     private val imagesList = arrayListOf(
-        R.drawable.image_000, R.drawable.image_0600, R.drawable.image_0900,
-        R.drawable.image_1400, R.drawable.image_1600
+        R.drawable.image_000, R.drawable.image_0600, R.drawable.image_0900
     )
 
     class ViewHolder(val view: View) : RecyclerView.ViewHolder(view)
@@ -28,6 +27,5 @@ class ImageViewPagerAdapter : RecyclerView.Adapter<ImageViewPagerAdapter.ViewHol
         holder.view.findViewById<AppCompatImageView>(R.id.imageView).let {
             it.setImageDrawable(ContextCompat.getDrawable(it.context,imagesList[position]))
         }
-        holder.view.findViewById<AppCompatTextView>(R.id.pageNumber).text = "$position"
     }
 }

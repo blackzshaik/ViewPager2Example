@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ViewPager2Example</string>
+    <string name="tools_viewpager_item_description">Some long multiple line text to show the use case of this viewpager fragment use case this is for information purpose only,this will not be rendered in the real application</string>
+    <string name="morning_wiki">Morning is the period from sunrise to noon. There are no exact times for when morning begins (also true for evening and night) because it can vary according to one\'s lifestyle and the hours of daylight at each time of year.[1] However, morning strictly ends at noon, which is when afternoon starts. Morning can be defined as starting from midnight to noon.</string>
+    <string name="evening_wiki">Evening is the period of a day from the end of the afternoon to the beginning of night.[1][2] The exact times when evening begins and ends depend on location, time of year, and culture, but it is generally regarded as beginning when the Sun is low in the sky and lasting until the end of twilight.</string>
+    <string name="night_wiki">\"    Night (also described as night time or night-time or nighttime, unconventionally spelled as nite) is the period of ambient darkness from sunset to sunrise, when the Sun is below the horizon. The exact time when night begins and ends depends on the location and varies throughout the year, based on factors such as season and latitude.\"</string>
 </resources>
